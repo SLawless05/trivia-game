@@ -245,6 +245,8 @@ function pickAnswer() {
     else {
         guess = 3;
     }
+
+    $("#response-answer").html("Your Guess: " + questions[questionNum].answers[guess]);
 }
 
 //sets up the start button on-click on pageload.
